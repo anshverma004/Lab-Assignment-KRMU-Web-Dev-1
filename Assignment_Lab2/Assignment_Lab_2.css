@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(241, 235, 235);
+}
+#Header{
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+a{
+    color: white;
+}
+#About{
+    text-align: center;
+}
+#Skills{
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    th{
+        background-color: blue;
+    }
+    td{
+        background-color: white;
+    }
+    border-color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#Projects{
+    text-align: center;
+}
+.Project1{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+.Project2{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+#Contact{
+    text-align: center;
+}
