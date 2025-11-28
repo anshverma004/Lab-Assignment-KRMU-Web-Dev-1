@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">E-Learning Platform</div>
+      <nav class="nav">
+        <a href="#categories">Categories</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="auth-buttons">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Unlock Your Potential with E-Learning Platform</h1>
+          <p>
+            Join thousands of learners and access top-rated courses from expert
+            instructors. Learn anytime, anywhere.
+          </p>
+          <form class="hero-search">
+            <input type="text" placeholder="What do you want to learn?" />
+            <button type="submit" class="btn btn-primary">Find Courses</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section id="categories" class="section">
+      <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="category-grid">
+          <article class="category-card">Development</article>
+          <article class="category-card">Design</article>
+          <article class="category-card">Business</article>
+          <article class="category-card">Languages</article>
+          <article class="category-card">Academics</article>
+          <article class="category-card">Music</article>
+          <article class="category-card">Lifestyle</article>
+          <article class="category-card">Science</article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section id="courses" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Courses</h2>
+          <div class="filters">
+            <select>
+              <option>All Levels</option>
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+            <select>
+              <option>All Prices</option>
+              <option>Free</option>
+              <option>Paid</option>
+            </select>
+            <label class="checkbox">
+              <input type="checkbox" /> Certificate
+            </label>
+          </div>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card">
+            <img src="https://nfacademy.id/wp-content/uploads/2025/02/bootcamp-web-development-1-544X330px.webp"
+                 alt="Students learning web development online"
+                 class="course-image" />
+            <div class="course-body">
+              <h3>Modern Web Development Bootcamp</h3>
+              <p>Learn HTML, CSS, and JavaScript from scratch.</p>
+              <div class="course-meta">
+                <span>Beginner</span>
+                <span>4.7 ★</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <img src="https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/ef5494e91eb2.jpeg"
+                 alt="Designer working on a graphic tablet"
+                 class="course-image" />
+            <div class="course-body">
+              <h3>Graphic Design Masterclass</h3>
+              <p>Create stunning visuals and layouts for the web.</p>
+              <div class="course-meta">
+                <span>All Levels</span>
+                <span>4.5 ★</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <img src="https://asga-academy.com/storage/2022/12/business_analysis_fundamentals_course.jpg"
+                 alt="Business analytics dashboard on a laptop"
+                 class="course-image" />
+            <div class="course-body">
+              <h3>Business Analytics Fundamentals</h3>
+              <p>Use data to drive smart business decisions.</p>
+              <div class="course-meta">
+                <span>Intermediate</span>
+                <span>4.6 ★</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / CTA -->
+    <section id="about" class="section section-light">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title">Why Learn with Us?</h2>
+          <ul class="feature-list">
+            <li>Expert instructors with real-world experience.</li>
+            <li>Self-paced learning with lifetime access.</li>
+            <li>Certificates to showcase your skills.</li>
+          </ul>
+        </div>
+        <div class="about-box">
+          <h3>Ready to start learning?</h3>
+          <p>Create a free account and explore hundreds of courses.</p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contact Us</h2>
+          <p>Have questions about courses or pricing? Send a message.</p>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" required />
+            </label>
+            <label>
+              Email
+              <input type="email" required />
+            </label>
+            <label>
+              Message
+              <textarea rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 E-Learning Platform. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
